@@ -48,7 +48,7 @@ export const Products = () => {
                 Agregar Producto
             </Link>
 
-              <Link 
+              {/* <Link 
                 to={'stock'}
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-green-900 dark:text-green-800 bg-white dark:bg-gray-100 hover:bg-green-50 dark:hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 dark:focus:ring-green-400 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
@@ -56,7 +56,7 @@ export const Products = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                 </svg>
                 Ver Stock
-              </Link>
+              </Link> */}
             
           </div>
         </div>

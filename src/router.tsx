@@ -5,7 +5,7 @@ import NewProduct, {action as NewProductAction} from './views/NewProduct'
 import EditProduct, {loader as editProductLoader, action as editProductAction} from './views/EditProduct'
 import { action as deleteProductAction } from './components/ProductDetail'
 import Stocks from './views/Stocks'
-import StockDetail from './components/StockDetail'
+// import StockDetail from './components/StockDetail'
 
 export const router = createBrowserRouter([
     {
@@ -37,10 +37,10 @@ export const router = createBrowserRouter([
                 path:'stock',
                 element:<Stocks />
             },
-            {
-                path:'stock/:id',
-                element:<StockDetail />
-            }
+            // {
+            //     path:'stock/:id',
+            //     element:<StockDetail />
+            // }
         ]
     }
 ])
